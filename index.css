@@ -1,0 +1,370 @@
+html{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: #48648A;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    gap: 1rem;
+}
+
+.header-icon{
+    width: 3rem;
+    height: 4rem;
+}
+
+.header-title{
+    font-size: 3rem;
+
+}
+
+.header-span{
+    font-size: 1.5rem;
+}
+
+.circule-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.container-logo{
+    display: flex;
+    margin-left: 16rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container-nav{
+    display: flex;
+    margin-left: 3rem;
+    gap: 2rem;
+    
+}
+
+.cart{
+    display: flex;
+    border: 1px solid #48648A;
+    width: 8rem;
+    height: 3.2rem;
+    gap: 0.9rem;
+    border-width: 0.2px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-icon{
+    display: flex;
+    margin-left: 50rem;
+    gap: 1rem;
+
+}
+
+.shop-img{
+    width: 100%;
+    height: 100%;
+}
+
+.sub{
+    display: flex;
+    width: 80rem;
+    height: 20rem;
+    background-image: url("https://res.cloudinary.com/dtrvdcebd/image/upload/v1708266045/Clothy/l04wim0gq4l6c3rk5p32.jpg");
+    margin: 5rem auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 0%;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 4rem;
+    margin-top: -2rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.sub-inp{
+    display: inline;
+    margin: 8rem auto;
+}
+
+.inp{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn{
+    width: 12rem;
+    height: 4rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #48648A;
+    color: white;
+    cursor: pointer;
+}
+
+inp:focus{
+    color: white;
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-bottom: 30rem;
+    height: 20rem;
+    border-radius: 100px;
+}
+
+logo-footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 30px;
+    height: 45px;
+
+}
+
+.contact-us{
+    text-align: right;
+}
+
+.title-logo{
+    font-size: 2rem;
+}
+
+.contact-media{
+    align-items: center;
+    text-align: center;
+}
+
+.text-footer{
+    margin-top: 23px;
+}
+
+.utility-page{
+    text-align: left;
+}
+
+.media-icon{
+    display: flex;
+    justify-content: center;
+    width: 265px;
+    height: 60px;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.media-logos{
+    width: 4rem;
+    height: 4rem;
+    gap: 1rem;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;   
+}
+
+.footer-section:not(:last-child) {
+    border-right: 1px solid #48648A; 
+}
+
+.Product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    margin-top: 250px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 250px;
+    background-color: #ffffff;
+    justify-items: center; 
+    align-items: center; 
+}
+
+.item-details-image-container{
+    margin: 150px;
+    padding-left: 1000px;
+    
+}
+
+.ProductDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.Product-text {
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 25px; 
+    text-align: center;
+    letter-spacing: 1px;
+    z-index: 1; 
+    text-transform: uppercase ;
+}
+
+.product-image-container {
+    height: 60%; 
+    overflow: hidden;
+    
+}
+
+.image-container {
+    position: relative;
+}
+
+.ProductImage {
+    width: 75%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-left: 110px;
+    margin-top: 35px;
+}
+
+.ProductTitle {
+    text-align:left !important;
+    font-size: 45px !important;
+    font-weight: bold !important;
+    color: #48648A !important;
+    margin-top: 10px !important;
+    letter-spacing: 1px !important;
+    max-height: 3em; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.ProductDivider {
+    margin: 1px 0;
+    color: white;
+}
+
+.ProductPrice {
+    color: rgb(47, 76, 78); 
+    font-size:50px; 
+    font-weight: bold ;
+    text-transform: uppercase ;
+}
+
+.ProductTitle1{
+    font-size: 150px;
+    padding-left: 2300px;
+    color: #48648A;
+    margin-top: -1300px;
+    margin-bottom: 200px;
+}  
+
+.space{
+    padding-left: 2300px;
+}
+
+.ProductRating{
+    margin-top: -180px;
+}
+
+.ProductPrice1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #48648A;
+    padding-left: 20px;
+}
+
+.ProductDescription{
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.item-title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #48648A;
+    padding-left: 20px;
+    margin-bottom: -80px;
+}
+
+.quantityInput{
+    font-size: 50px;
+    width: 10%;
+    height: 150px;
+    color: #48648A;
+    padding-left: 30px;
+    border-radius:20px;
+    margin-left: 300px;
+    text-align: center;
+    margin-top: -500px;
+}
+
+.add-to-cart-button{
+    font-size: 50px;
+    font-weight: 700;
+    color: #48648A;
+    margin-left: 30px;
+    width: 700px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: #48648A;
+    color: #c0bcbc;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.buttons{
+    margin-top: 700px;
+    margin-bottom: 700px;
+    margin-left: 800px ;
+    margin-right: 500px;
+    display: block;
+
+}
+
+.PDDES{
+    width:100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 500px;
+    width: 800px;
+   height: 200px;
+   border-radius:40px;
+   font-size: 80px;
+   background-color: #48648A; 
+   color:white; 
+   cursor: pointer;
+   
+}
+
+.desc{
+    font-size: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: -3300px
+}
+
